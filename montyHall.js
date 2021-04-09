@@ -104,7 +104,9 @@ do {
       process.exit();
     }
   } else {
-    console.log(chalk.red.bold(`Sorry ${userFirstName}, no car behind that door. You lost 🥺 !`));
+    console.log(
+      chalk.red.bold(`Sorry ${userFirstName}, no car behind that door, only a little goat 🐐. You lost 🥺 !`)
+    );
     const playAgain = ["Do you want to start a new game ?"];
     console.log("");
     const exitGame = readlineSync.keyInSelect(playAgain);
